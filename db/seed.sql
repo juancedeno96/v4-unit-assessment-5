@@ -3,7 +3,7 @@ CREATE TABLE helo_users (
     username VARCHAR NOT NULL,
     password VARCHAR NOT NULL,
     profile_pic TEXT
-)
+);
 
 CREATE TABLE helo_posts (
     id SERIAL PRIMARY KEY,
