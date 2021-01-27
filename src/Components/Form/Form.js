@@ -25,7 +25,7 @@ class Form extends Component {
     let imgSrc = this.state.img ? this.state.img : noImage;
 
     return (
-      <div className='form content-box'>
+      <div className='form-content-box'>
         <h2 className='title'>New Post</h2>
         <div className='form-main'>
           <div className='form-input-box'>
